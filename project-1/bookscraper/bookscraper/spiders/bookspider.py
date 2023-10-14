@@ -1,5 +1,6 @@
 import scrapy
 from ..items import BookItem
+import random
 
 
 class BookspiderSpider(scrapy.Spider):
@@ -11,7 +12,7 @@ class BookspiderSpider(scrapy.Spider):
         'FEEDS': {
             'booksdata.json': {'format': 'json', 'overwrite': True},
         }
-}
+    }
 
     def parse(self, response):
         books = response.css('article.product_pod')
