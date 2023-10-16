@@ -37,8 +37,6 @@ pure-eval==0.2.2
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pycparser==2.21
-pydantic==2.4.2
-pydantic_core==2.10.1
 PyDispatcher==2.0.7
 Pygments==2.16.1
 pyOpenSSL==23.2.0
@@ -46,13 +44,16 @@ pywatchman==1.4.1
 queuelib==1.6.2
 requests==2.31.0
 requests-file==1.5.1
+scrapeops-scrapy-proxy-sdk==1.0
 Scrapy==2.11.0
+scrapy-rotating-proxies==0.6.2
 service-identity==23.1.0
 six==1.16.0
 stack-data==0.6.3
 tldextract==3.6.0
 traitlets==5.11.1
 Twisted==22.10.0
+typing==3.7.4.3
 typing_extensions==4.8.0
 urllib3==2.0.6
 w3lib==2.1.2
